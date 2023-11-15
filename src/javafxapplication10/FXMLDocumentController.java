@@ -5,6 +5,7 @@
 package javafxapplication10;
 
 import java.net.URL;
+import static java.time.Clock.system;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -32,7 +33,7 @@ public class FXMLDocumentController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-        
+        System.out.println("ciaooo");
     }    
     
 }
